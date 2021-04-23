@@ -4,7 +4,7 @@
 }
 .list-title{
 	font 			  : var(--baseFont);
-	margin-block-start:0;
+	margin-block-start: 0;
 	margin-block-end  : .5rem ;
 
 }
@@ -23,5 +23,5 @@
 
 .list-item a{
 	font      : var(--baseFontBold);
-	transition:  color .2s;
+	transition: color .2s;
 }

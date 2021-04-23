@@ -22,7 +22,7 @@
 <body class="body">
 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, adipisci ex cupiditate dignissimos aliquam, delectus alias, eligendi possimus ipsa dolore ipsum vitae ad laborum sit sequi fugiat corrupti facilis voluptates?Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Magni minima impedit pariatur. Expedita impedit optio asperiores itaque nemo sequi est dolore enim hic ratione sed, animi quam necessitatibus veritatis debitis!</p>
 	<div class="playerControls">
-		<div class="playerControls-buttons">
+		<div class="playerControls-buttons" aria-label="Controles de Reproduccion">
 			<button class="buttonIcon " aria-label="Anterior" title="Anterior">
 				<i class="icon-prev" aria-hidden="true"></i>
 			</button>
@@ -46,6 +46,19 @@
 		    	</div>
 			</div>
 		    <span class="playerPlayback-progressTime">01:40</span>
+		</div>
+	</div>
+
+	<div class="playerVolume">
+		<button class="player-control" aria-label="Silenciar"  aria-describedby="volume-icon">
+			<i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="volume Alto"></i>
+		</button>
+		<div class="playerVolume-slider">
+			<div class="slider">
+				<div class="slider-progress">
+					<button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+				</div>
+		    </div>
 		</div>
 	</div>
 	
