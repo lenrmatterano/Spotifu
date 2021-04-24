@@ -1,12 +1,29 @@
-.player{
+@import '../css/player-controls.css';
+@import '../css/player-playback.css';
+@import '../css/player-volume.css';
+@import '../css/nowPlaying.css';
 
+.player{
+	display: flex;
+	gap: 1.5rem;
+	padding: 1rem;
+	box-shadow: inset 0px 1px 0 var(--gray30);
+}
+.player> *{
+	flex: 1;
 }
 .player-control{
 	border 	  : none;
 	padding   : 0;
 	background: none;
 	color 	  : var(--gray10);
-	font-size : 1.5rem;
+	font-size : 1rem;
 	padding   : .5rem;
 	cursor    : pointer;
+}
+
+.player-playerVolume{
+	
+	display: flex;
+	justify-content: flex-end;
 }

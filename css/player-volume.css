@@ -5,5 +5,5 @@
 
 .playerVolume-slider{
 	flex   		   :  1;
-	max-inline-size: 15rem;
+	inline-size: 15rem;
 }

@@ -6,11 +6,9 @@
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
 @import '../css/slider.css';
-@import '../css/player-controls.css';
-@import '../css/player-playback.css';
-@import '../css/player-volume.css';
 @import '../css/player.css';
-@import '../css/nowPlaying.css';
+@import '../css/playlist-a.css';
+
 
 :root{
 	font-size: ;
