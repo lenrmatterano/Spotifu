@@ -8,10 +8,11 @@
 @import '../css/slider.css';
 @import '../css/player.css';
 @import '../css/playlist-a.css';
+@import '../css/playlist-b.css';
 
 
 :root{
-	font-size: ;
+	font-size 		: 16px;
 	--primary		: #00B050;
 	--white  		: #FFFFFF;
 	--gray10 		: #B3B3B3;

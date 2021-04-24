@@ -21,6 +21,8 @@
 .playlistA-cover img{
 	vertical-align: top;
 	border-radius : .75rem;
+	inline-size   : 100%;
+	block-size    : auto;
 }
 
 .playlistA-cover{
