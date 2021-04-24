@@ -10,8 +10,10 @@
 @import '../css/player-playback.css';
 @import '../css/player-volume.css';
 @import '../css/player.css';
+@import '../css/nowPlaying.css';
 
 :root{
+	font-size: ;
 	--primary		: #00B050;
 	--white  		: #FFFFFF;
 	--gray10 		: #B3B3B3;
