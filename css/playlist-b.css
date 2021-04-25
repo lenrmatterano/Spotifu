@@ -11,11 +11,11 @@
 	background-color: rgba(255, 255, 255, .2)
 }
 .playlistB-details{
-	display    : flex;
-	padding    : 1rem;
-	gap 	   : .5rem;
-	align-items: center;
-	flex: 1;
+	display        : flex;
+	padding        : 1rem;
+	gap 	       : .5rem;
+	align-items    : center;
+	flex           : 1;
     justify-content: space-between;
 }
 

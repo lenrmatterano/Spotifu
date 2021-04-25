@@ -4,9 +4,9 @@
 @import '../css/nowPlaying.css';
 
 .player{
-	display: flex;
-	gap: 1.5rem;
-	padding: 1rem;
+	display   : flex;
+	gap       : 1.5rem;
+	padding   : 1rem;
 	box-shadow: inset 0px 1px 0 var(--gray30);
 }
 .player> *{
@@ -24,6 +24,6 @@
 
 .player-playerVolume{
 	
-	display: flex;
+	display        : flex;
 	justify-content: flex-end;
 }
