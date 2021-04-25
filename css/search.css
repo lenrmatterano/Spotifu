@@ -1,0 +1,31 @@
+.search{
+	position: relative;
+}
+
+.search i{
+	position  : absolute;
+	font-size : 1rem;
+	left   	  : .5rem;
+	top 	  : calc(50% - .5rem);
+	block-size: 1rem;
+}
+
+.search input {
+	font 				: var(--baseFont);
+	color 				: var(--gary30);
+	border-radius 		: 20px;
+	border 				: none;
+	max-inline-size 	: 22rem;
+	padding 			: .5rem;
+	padding-inline-start: 2rem;
+	width 				: 100%;
+
+}
+
+.search:focus-within i{
+	color: var(--gray30);
+}
+
+.search input::-webkit-input-placeholder{
+	color: var(--gray10);
+}
