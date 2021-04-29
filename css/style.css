@@ -7,13 +7,7 @@
 @import '../css/ellipsis.css';
 @import '../css/slider.css';
 @import '../css/player.css';
-@import '../css/playlist-a.css';
-@import '../css/playlist-b.css';
-@import '../css/playlist-list.css';
-@import '../css/search.css';
-@import '../css/navigation.css';
-@import '../css/header.css';
-@import '../css/sticky.css';
+@import '../css/page.css';
 
 
 :root{
