@@ -13,7 +13,7 @@
 
 .search input {
 	font 				: var(--baseFont);
-	color 				: var(--gary30);
+	color 				: var(--gray30);
 	border-radius 		: 20px;
 	border 				: none;
 	max-inline-size 	: 22rem;

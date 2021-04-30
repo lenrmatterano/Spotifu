@@ -20,767 +20,778 @@
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body class="body">
-	<div class="page ">
-		<div class="sticky">
-			<div class="page-block">
-				<header class="header" aria-label="Barra Superior y menu del Usuario">
-					<div class="navigation">
-						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-arrowLeft" aria-hidden="true"></i>
-						</button>
+	<div class="layout">
+		<div class="layout-block">
+			<div class="layout-sidebar">
+				<div class="sidebar">
+					<header class="logo">
+						<a href="/">
+							<img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu" title="Logo de Spotifu" >
+						</a>
+					</header>
+					<nav class="menu" aria-label="Principal">
+						<ul class="menu-list">
+							<li class="menuItem is-active">
+								<a href="/" class="link" aria-current="page">
+									<i class="icon-home" aria-hidden="true"> </i>
+									<span>Inicio</span>
+								</a>
+							<li class="menuItem">
+								<a href="/" class="link">
+									<i class="icon-search" aria-hidden="true"> </i>
+									<span>Buscar</span>
+								</a>
+							</li>
+							<li class="menuItem">
+								<a href="/" class="link">
+									<i class="icon-creditCard" aria-hidden="true"> </i>
+									<span>Premium</span>
+								</a>
+							</li>
+							
+						</ul>	
+					</nav>
+					<nav class="list" aria-labelledby="library-navigation">	
+						<h2 class="list-title" id="library-navigation"> Tu Bliblioteca</h2>	
+						<ul class="list-content">
+							<li class="list-item">
+								<a class="link"  href="">Creada para ti</a>
+							</li>
+							<li class="list-item">
+								<a class="link"  href="">Escuchado Recientemente</a>
+							</li>
+							<li class="list-item">
+								<a class="link"  href="">Shallow</a>
+							</li>	
+						</ul>
+					</nav>
+					<nav class="list"  aria-labelledby='play-navigation'>
+						<h2 class="list-title" id="play-navigation">Playlist</h2>
+						<ul class="list-content">
+							<li class="list-item">
+								<a class="link" href="#">Sweet child o' Mine</a>
+							</li>
+							<li class="list-item">
+								<span class="ellipsis">
+									<a class="link" href="#">Electronica 100% para programar</a>
+								</span>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Para cantar en la ducha</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Island in the Sun</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Walking on Sunshine</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Tubthmping</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Mr. Jones</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Mr Wendal</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Mis pistas de shazam</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Audio Library</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Amor y Otras</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Latin</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Time</a>
+							</li>
+							<li class="list-item">
+								<a class="link" href="#">Para cantar</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			
+			<div class="layout-main">
+				<div class="page">
+					<div class="sticky">
+						<div class="page-block">
+							<header class="header" aria-label="Barra Superior y menu del Usuario">
+								<div class="navigation">
+									<button class="navigation-prev" aria-label="Volver" title="Volver">
+										<i class="icon-arrowLeft" aria-hidden="true"></i>
+									</button>
 
-						<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
-							<i class="icon-arrowRight" aria-hidden="true"></i>
-						</button>	
+									<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
+										<i class="icon-arrowRight" aria-hidden="true"></i>
+									</button>	
+								</div>
+								<form class="search" action="" role="search" aria-label="Buscar Por Artista, Canciones o Postcasts">
+									<i class="icon-search" aria-hidden="true"></i>
+									<input type="search" name="" id="" placeholder="Buscar Por Artista, Canciones o Postcasts">
+								</form>
+							</header>
+						</div>
 					</div>
-					<form class="search" action="" role="search" aria-label="Buscar Por Artista, Canciones o Postcasts">
-						<i class="icon-search" aria-hidden="true"></i>
-						<input type="search" name="" id="" placeholder="Buscar Por Artista, Canciones o Postcasts">
-					</form>
-				</header>
+					
+					<main class="page-block">
+						<section class="playlistList" aria-labelledby="region1">
+							<div class="playlistList-top">
+								<h2 class="playlistList-title" id="region1">Buenas Noches</h2>
+								<div class="navigation">
+									<button class="navigation-prev" aria-label="Volver" title="Volver">
+										<i class="icon-arrowLeft" aria-hidden="true"></i>
+									</button>
+
+									<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
+										<i class="icon-arrowRight" aria-hidden="true"></i>
+									</button>	
+								</div>
+							</div>
+							
+							<div class="playlistList-container">
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/mrjones.png" alt="Cover de la Playlist Mr. Jones" title="Cover de la Cancion Mr. Jones" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Mr. Jones</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Joness" aria-label="Reproducir La Lista de Reproduccion Mr. Jones">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/time.png" alt="Cover de la Playlist Mr. Jones" title="Cover de la Cancion Mr. Jones" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Time</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Joness" aria-label="Reproducir La Lista de Reproduccion Mr. Jones">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/gunsandrose.png" alt="Cover de la Playlist Sweet child o' Mine" title="Cover de la cancion Sweet child o' Mine" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Sweet child o' Mine</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Sweet child o' Mines" aria-label="Reproducir La Lista de ReproduccionSweet child o' Mine">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/mrwendal.png" alt="Cover de la Playlist Mr. Wendal" title="Cover de la Playlist Mr. Wendal" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Mr. Wendal</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Wendal" aria-label="Reproducir La Lista de Reproduccion Mr. Wendal">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/walkingonsunshine.png" alt="Cover de la Playlist Walking on Sunshine" title="Cover de la Playlist Walking on Sunshine" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Walking on Sunshine</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de ReproduccionWalking on Sunshine" aria-label="Reproducir La Lista de Reproduccion Walking on Sunshine">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/unmilloncomotu.png" alt="Cover de la Playlist Un Millón Como Tú" title="Cover de la Playlist Un Millón Como Tú" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Un Millón Como Tú</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Un Millón Como Tú" aria-label="Reproducir La Lista de Reproduccion Un Millón Como Tú">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>	
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/shallow.png" alt="Cover de la Playlist Shallow" title="Cover de la Playlist Shallow" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Shallow</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Shallow" aria-label="Reproducir La Lista de Reproduccion Shallow">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/whoknew.png" alt="Cover de la Playlist Who Knew" title="Cover de la Playlist Who Knew" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Who Knew</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Who Knew" aria-label="Reproducir La Lista de ReproduccionWho Knew">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/islandinthesun.png" alt="Cover de la Playlist Island In The Sun" title="Cover de la Playlist Island In The Sun" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Island In The Sun</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Island In The Sun" aria-label="Reproducir La Lista de Reproduccion Island In The Sun">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+
+								<div class="playlistB">
+									<div class="playlistB-cover">
+										<img src="./images/laurapausini.png" alt="Cover de la PlaylistComo Si No Nos Hubieramos Amado" title="Cover de la Playlist Como Si No Nos Hubieramos Amado" width="76" height="76">
+									</div>
+									<div class="playlistB-details">
+										<h3 class="playlistB-title">Como Si No Nos hubieramos Ama...</h3>
+										<div class="playlistB-control">
+											<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Como Si No Nos Hubieramos Amado" aria-label="Reproducir La Lista de Reproduccion Como Si No Nos Hubieramos Amado">
+											<i class="icon-play" aria-hidden="true"></i>
+											</button>
+										</div>
+							        </div>
+								</div>
+							</div>
+						</section>
+
+						<section class="playlistList" aria-labelledby="region2">
+							<div class="playlistList-top">
+								<h2 class="playlistList-title" id="region2">Hecho para LeN</h2>
+								<div class="navigation">
+									<button class="navigation-prev" aria-label="Volver" title="Volver">
+										<i class="icon-arrowLeft" aria-hidden="true"></i>
+									</button>
+
+									<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
+										<i class="icon-arrowRight" aria-hidden="true"></i>
+									</button>	
+								</div>
+							</div>
+							<div class="playlistList-container">
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Descubrimiento...</h3>
+										<h4 class="playlistA-description">Tu Combinado Semanal </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 1</h3>
+										<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Sin Bugs</h3>
+										<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
+										<h4 class="playlistA-description">Html - Css - Javascript</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Posdcasts</h3>
+										<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
+									</div>
+								</div>
+
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title"> Daily Mix 2</h3>
+										<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 3</h3>
+										<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
+									</div>
+								</div>
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Anti (Deluxe)</h3>
+										<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Inglés</h3>
+										<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="playlistList" aria-labelledby="region3">
+							<div class="playlistList-top">
+								<h2 class="playlistList-title" id="region3">Posdcasts</h2>
+								<div class="navigation">
+									<button class="navigation-prev" aria-label="Volver" title="Volver">
+										<i class="icon-arrowLeft" aria-hidden="true"></i>
+									</button>
+
+									<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
+										<i class="icon-arrowRight" aria-hidden="true"></i>
+									</button>	
+								</div>
+							</div>
+							<div class="playlistList-container">
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Descubrimiento...</h3>
+										<h4 class="playlistA-description">Tu Combinado Semanal </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 1</h3>
+										<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Sin Bugs</h3>
+										<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
+										<h4 class="playlistA-description">Html - Css - Javascript</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Posdcasts</h3>
+										<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
+									</div>
+								</div>
+
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title"> Daily Mix 2</h3>
+										<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 3</h3>
+										<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
+									</div>
+								</div>
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Anti (Deluxe)</h3>
+										<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Inglés</h3>
+										<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="playlistList" aria-labelledby="region4">
+							<div class="playlistList-top">
+								<h2 class="playlistList-title" id="region4">Tus Programas mas Escuchados</h2>
+								<div class="navigation">
+									<button class="navigation-prev" aria-label="Volver" title="Volver">
+										<i class="icon-arrowLeft" aria-hidden="true"></i>
+									</button>
+
+									<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
+										<i class="icon-arrowRight" aria-hidden="true"></i>
+									</button>	
+								</div>
+							</div>
+							<div class="playlistList-container">
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Descubrimiento...</h3>
+										<h4 class="playlistA-description">Tu Combinado Semanal </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 1</h3>
+										<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Sin Bugs</h3>
+										<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
+										<h4 class="playlistA-description">Html - Css - Javascript</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Posdcasts</h3>
+										<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
+									</div>
+								</div>
+
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title"> Daily Mix 2</h3>
+										<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Daily Mix 3</h3>
+										<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
+									</div>
+								</div>
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Anti (Deluxe)</h3>
+										<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
+									</div>
+								</div>
+
+								<div class="playlistList-container">
+									<div class="playlistA">
+										<div class="playlistA-cover">
+											<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
+											<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+			                      				<i class="icon-play" aria-hidden="true"></i>
+			                    			</button>
+								 		</div>
+										
+										<h3 class="playlistA-title">Inglés</h3>
+										<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
+									</div>
+								</div>
+							</div>
+						</section>
+					</main>
+				</div>
 			</div>
 		</div>
-		
-		<main class="page-block">
-			<section class="playlistList" aria-labelledby="region1">
-				<div class="playlistList-top">
-					<h2 class="playlistList-title" id="region1">Buenas Noches</h2>
-					<div class="navigation">
-						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-arrowLeft" aria-hidden="true"></i>
-						</button>
 
-						<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
-							<i class="icon-arrowRight" aria-hidden="true"></i>
-						</button>	
-					</div>
-				</div>
-				
-				<div class="playlistList-container">
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/mrjones.png" alt="Cover de la Playlist Mr. Jones" title="Cover de la Cancion Mr. Jones" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Mr. Jones</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Joness" aria-label="Reproducir La Lista de Reproduccion Mr. Jones">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
+		<div class="layout-block">
+			<footer class="layout-bottom">
+				<div class="player">
+					<div class="player-nowPlaying">
+						<div class="nowPlaying">
+							<div class="nowPlaying-cover">
+								<img src="./images/grand-scape.png" width="56" height="56" alt="Portada de Grand Escape de RADWIMPS, Toko Miura " title="Portada de Grand Escape de RADWIMPS, Toko Miura">
 							</div>
-				        </div>
+							<div class="nowPlaying-details">
+								<div class="nowPlaying-description">
+									<a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)</a>
+									<a href="#RADWIMPS" class="nowPlaying-artist">RADWIMPS, Toko Miura</a>
+								</div>
+								<div class="nowPlaying-actions">
+									<button class="player-control" role="switch"  aria-checked="false"  aria-label="Guardar en tu Biblioteca" title="Guardar en tu Biblioteca">
+									<i class="icon-heart"  aria-hidden="true"></i>
+									</button>
+								</div>
+							</div>
+						</div>
 					</div>
 
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/time.png" alt="Cover de la Playlist Mr. Jones" title="Cover de la Cancion Mr. Jones" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Time</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Joness" aria-label="Reproducir La Lista de Reproduccion Mr. Jones">
-								<i class="icon-play" aria-hidden="true"></i>
+					<div class="player-playerControls">
+						<div class="playerControls">
+							<div class="playerControls-buttons" aria-label="Controles de Reproduccion">
+								<button class="buttonIcon " aria-label="Anterior" title="Anterior">
+									<i class="icon-prev" aria-hidden="true"></i>
 								</button>
-							</div>
-				        </div>
-					</div>
 
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/gunsandrose.png" alt="Cover de la Playlist Sweet child o' Mine" title="Cover de la cancion Sweet child o' Mine" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Sweet child o' Mine</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Sweet child o' Mines" aria-label="Reproducir La Lista de ReproduccionSweet child o' Mine">
-								<i class="icon-play" aria-hidden="true"></i>
+								<button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+									<i class="icon-play" aria-hidden="true"></i>
+								</button>
+								<button class="buttonIcon " aria-label="Siguiente" title="Siguiente">
+									<i class="icon-next" aria-hidden="true"></i>
 								</button>
 							</div>
-				        </div>
-					</div>
+						</div>
+						<div class="playerPlayback">
+							<span class="playerPlayback-progressTime">01:40</span>
+							<div class="playerPlayback-slider">
+								<div class="slider">
+									<div class="slider-progress">
+										<button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+									</div>
+						    	</div>
+							</div>
+						    <span class="playerPlayback-progressTime">01:40</span>
+						</div>
+					</div>			
 
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/mrwendal.png" alt="Cover de la Playlist Mr. Wendal" title="Cover de la Playlist Mr. Wendal" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Mr. Wendal</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Mr. Wendal" aria-label="Reproducir La Lista de Reproduccion Mr. Wendal">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
+					<div class="player-playerVolume">
+						<div class="playerVolume">
+							<button class="player-control" aria-label="Silenciar"  aria-describedby="volume-icon">
+								<i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="volume Alto"></i>
+							</button>
+							<div class="playerVolume-slider">
+								<div class="slider">
+									<div class="slider-progress">
+										<button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+									</div>
+								</div>
 							</div>
-				        </div>
-					</div>
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/walkingonsunshine.png" alt="Cover de la Playlist Walking on Sunshine" title="Cover de la Playlist Walking on Sunshine" width="76" height="76">
 						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Walking on Sunshine</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de ReproduccionWalking on Sunshine" aria-label="Reproducir La Lista de Reproduccion Walking on Sunshine">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
-					</div>
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/unmilloncomotu.png" alt="Cover de la Playlist Un Millón Como Tú" title="Cover de la Playlist Un Millón Como Tú" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Un Millón Como Tú</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Un Millón Como Tú" aria-label="Reproducir La Lista de Reproduccion Un Millón Como Tú">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
 					</div>	
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/shallow.png" alt="Cover de la Playlist Shallow" title="Cover de la Playlist Shallow" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Shallow</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Shallow" aria-label="Reproducir La Lista de Reproduccion Shallow">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
-					</div>
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/whoknew.png" alt="Cover de la Playlist Who Knew" title="Cover de la Playlist Who Knew" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Who Knew</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Who Knew" aria-label="Reproducir La Lista de ReproduccionWho Knew">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
-					</div>
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/islandinthesun.png" alt="Cover de la Playlist Island In The Sun" title="Cover de la Playlist Island In The Sun" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Island In The Sun</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Island In The Sun" aria-label="Reproducir La Lista de Reproduccion Island In The Sun">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
-					</div>
-
-					<div class="playlistB">
-						<div class="playlistB-cover">
-							<img src="./images/laurapausini.png" alt="Cover de la PlaylistComo Si No Nos Hubieramos Amado" title="Cover de la Playlist Como Si No Nos Hubieramos Amado" width="76" height="76">
-						</div>
-						<div class="playlistB-details">
-							<h3 class="playlistB-title">Como Si No Nos hubieramos Ama...</h3>
-							<div class="playlistB-control">
-								<button class="buttonIcon is is-primary" title="Reproducir La Lista de Reproduccion Como Si No Nos Hubieramos Amado" aria-label="Reproducir La Lista de Reproduccion Como Si No Nos Hubieramos Amado">
-								<i class="icon-play" aria-hidden="true"></i>
-								</button>
-							</div>
-				        </div>
-					</div>
 				</div>
-			</section>
-
-			<section class="playlistList" aria-labelledby="region2">
-				<div class="playlistList-top">
-					<h2 class="playlistList-title" id="region2">Hecho para LeN</h2>
-					<div class="navigation">
-						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-arrowLeft" aria-hidden="true"></i>
-						</button>
-
-						<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
-							<i class="icon-arrowRight" aria-hidden="true"></i>
-						</button>	
-					</div>
-				</div>
-				<div class="playlistList-container">
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Descubrimiento...</h3>
-							<h4 class="playlistA-description">Tu Combinado Semanal </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 1</h3>
-							<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Sin Bugs</h3>
-							<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
-							<h4 class="playlistA-description">Html - Css - Javascript</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Posdcasts</h3>
-							<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
-						</div>
-					</div>
-
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title"> Daily Mix 2</h3>
-							<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 3</h3>
-							<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
-						</div>
-					</div>
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Anti (Deluxe)</h3>
-							<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Inglés</h3>
-							<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="playlistList" aria-labelledby="region3">
-				<div class="playlistList-top">
-					<h2 class="playlistList-title" id="region3">Posdcasts</h2>
-					<div class="navigation">
-						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-arrowLeft" aria-hidden="true"></i>
-						</button>
-
-						<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
-							<i class="icon-arrowRight" aria-hidden="true"></i>
-						</button>	
-					</div>
-				</div>
-				<div class="playlistList-container">
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Descubrimiento...</h3>
-							<h4 class="playlistA-description">Tu Combinado Semanal </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 1</h3>
-							<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Sin Bugs</h3>
-							<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
-							<h4 class="playlistA-description">Html - Css - Javascript</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Posdcasts</h3>
-							<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
-						</div>
-					</div>
-
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title"> Daily Mix 2</h3>
-							<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 3</h3>
-							<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
-						</div>
-					</div>
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Anti (Deluxe)</h3>
-							<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Inglés</h3>
-							<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="playlistList" aria-labelledby="region4">
-				<div class="playlistList-top">
-					<h2 class="playlistList-title" id="region4">Tus Programas mas Escuchados</h2>
-					<div class="navigation">
-						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-arrowLeft" aria-hidden="true"></i>
-						</button>
-
-						<button class="navigation-next" disabled="" aria-label="Avanzar" title="Avanzar"> 
-							<i class="icon-arrowRight" aria-hidden="true"></i>
-						</button>	
-					</div>
-				</div>
-				<div class="playlistList-container">
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/descubriendo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Descubrimiento...</h3>
-							<h4 class="playlistA-description">Tu Combinado Semanal </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/mix1.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 1</h3>
-							<h4 class="playlistA-description">Ricardo Arjona, Laura Pausini, Manolo Garcia</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/sinbug.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Sin Bugs</h3>
-							<h4 class="playlistA-description">Codigo Limpio, Lengua de Progr... </h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/leonidasesteban.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Aprendiendo con Leonidas Esteban</h3>
-							<h4 class="playlistA-description">Html - Css - Javascript</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/posdcasts.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Posdcasts</h3>
-							<h4 class="playlistA-description">Hablando de Desarrollo Web</h4>
-						</div>
-					</div>
-
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/escuchadasrecientemente.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title"> Daily Mix 2</h3>
-							<h4 class="playlistA-description">Mr. Jones, Mr. Wendal, Team-Lorde</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/cancionesdelrecuerdo.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Daily Mix 3</h3>
-							<h4 class="playlistA-description">First Date, Basket Case, Narcisista por...</h4>
-						</div>
-					</div>
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/rihana.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Anti (Deluxe)</h3>
-							<h4 class="playlistA-description">Love On The Brain, Umbrella</h4>
-						</div>
-					</div>
-
-					<div class="playlistList-container">
-						<div class="playlistA">
-							<div class="playlistA-cover">
-								<img src="./images/ingles.png" alt="Cover de la Playlist Hecho para LeN" title="Cover de la Playlist Hecho para LeN" width="150" height="150">
-								<button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-									<i class="icon-play" aria-hiden="true"></i>
-								</button>
-					 		</div>
-							
-							<h3 class="playlistA-title">Inglés</h3>
-							<h4 class="playlistA-description">Aprende más Inglés Cada Día</h4>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
+			</footer> 
+		</div>		
 	</div>
-
-	<div class="sidebar">
-		<header class="logo">
-			<a href="/">
-				<img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu" title="Logo de Spotifu" >
-			</a>
-		</header>
-		<nav class="menu" aria-label="Principal">
-			<ul class="menu-list">
-				<li class="menuItem is-active">
-					<a href="/" class="link" aria-current="page">
-						<i class="icon-home" aria-hidden="true"> </i>
-						<span>Inicio</span>
-					</a>
-				<li class="menuItem">
-					<a href="/" class="link">
-						<i class="icon-search" aria-hidden="true"> </i>
-						<span>Buscar</span>
-					</a>
-				</li>
-				<li class="menuItem">
-					<a href="/" class="link">
-						<i class="icon-creditCard" aria-hidden="true"> </i>
-						<span>Premium</span>
-					</a>
-				</li>
-				
-			</ul>	
-		</nav>
-		<nav class="list" aria-labelledby="library-navigation">	
-			<h2 class="list-title" id="library-navigation"> Tu Bliblioteca</h2>	
-			<ul class="list-content">
-				<li class="list-item">
-					<a class="link"  href="">Creada para ti</a>
-				</li>
-				<li class="list-item">
-					<a class="link"  href="">Escuchado Recientemente</a>
-				</li>
-				<li class="list-item">
-					<a class="link"  href="">Shallow</a>
-				</li>	
-			</ul>
-		</nav>
-		<nav class="list"  aria-labelledby='play-navigation'>
-			<h2 class="list-title" id="play-navigation">Playlist</h2>
-			<ul class="list-content">
-				<li class="list-item">
-					<a class="link" href="#">Sweet child o' Mine</a>
-				</li>
-				<li class="list-item">
-					<span class="ellipsis">
-						<a class="link" href="#">Electronica 100% para programar</a>
-					</span>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Para cantar en la ducha</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Island in the Sun</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Walking on Sunshine</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Tubthmping</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Mr. Jones</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Mr Wendal</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Mis pistas de shazam</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Audio Library</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Amor y Otras</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Latin</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Time</a>
-				</li>
-				<li class="list-item">
-					<a class="link" href="#">Para cantar</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-
-	<div class="player">
-		<div class="player-nowPlaying">
-			<div class="nowPlaying">
-				<div class="nowPlaying-cover">
-					<img src="./images/grand-scape.png" width="56" height="56" alt="Portada de Grand Escape de RADWIMPS, Toko Miura " title="Portada de Grand Escape de RADWIMPS, Toko Miura">
-				</div>
-				<div class="nowPlaying-details">
-					<div class="nowPlaying-description">
-						<a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)</a>
-						<a href="#RADWIMPS" class="nowPlaying-artist">RADWIMPS, Toko Miura</a>
-					</div>
-					<div class="nowPlaying-actions">
-						<button class="player-control" role="switch" aria-label="Guardar en tu Biblioteca" title="Guardar en tu Biblioteca">
-						<i class="icon-heart"  aria-hidden="true"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="player-playerControls">
-			<div class="playerControls">
-				<div class="playerControls-buttons" aria-label="Controles de Reproduccion">
-					<button class="buttonIcon " aria-label="Anterior" title="Anterior">
-						<i class="icon-prev" aria-hidden="true"></i>
-					</button>
-
-					<button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-						<i class="icon-play" aria-hidden="true"></i>
-					</button>
-					<button class="buttonIcon " aria-label="Siguiente" title="Siguiente">
-						<i class="icon-next" aria-hidden="true"></i>
-					</button>
-				</div>
-			</div>
-			<div class="playerPlayback">
-				<span class="playerPlayback-progressTime">01:40</span>
-				<div class="playerPlayback-slider">
-					<div class="slider">
-						<div class="slider-progress">
-							<button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
-						</div>
-			    	</div>
-				</div>
-			    <span class="playerPlayback-progressTime">01:40</span>
-			</div>
-		</div>			
-
-		<div class="player-playerVolume">
-			<div class="playerVolume">
-				<button class="player-control" aria-label="Silenciar"  aria-describedby="volume-icon">
-					<i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="volume Alto"></i>
-				</button>
-				<div class="playerVolume-slider">
-					<div class="slider">
-						<div class="slider-progress">
-							<button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-	</div>
-	
 </body>
 </html>
