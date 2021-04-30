@@ -1,0 +1,19 @@
+::-webkit-scrollbar{
+	/* background-color: red; */
+	inline-size: .2rem;
+	block-size : .2rem;
+}
+
+::-webkit-scrollbar-button{
+	/* background-color: blue; */
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: var(--gray60);
+	/* background-color: yellow; */
+}
+
+::-webkit-scrollbar-track{
+	background-color: var(--gray50);
+	/* background-color: pink; */
+}
