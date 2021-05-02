@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Curso de Flexbox Layout y Componentes 🚀
 Este proyecto es basado en componentes, y contiene un nivel de accesibilidad excelente, si quieres aprender a como desarrollar un proyecto basado en componentes sin duda toma el curso de @LeonidasEsteban.
@@ -57,4 +57,3 @@ Autores ✒️
 @LeonidasEsteban
 
 Proyecto de LeonidasEsteban. Desarrollado por LennysRojas en el Curso de Flexbox Layout y Componentes
->>>>>>> 1ddcd12dc57c9d6e2f8ebd678a127508a889b33b
