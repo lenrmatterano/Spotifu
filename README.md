@@ -20,7 +20,7 @@ Este proyecto es basado en componentes, y contiene un nivel de accesibilidad exc
 ![App Screenshot](https://github.com/lenrmatterano/Spotifu/blob/master/images/capturaspotifulennys.png?raw=true)
 
   
-## Documentation Puedes encontrar mas informacion sobre el Poryecto en: 📖
+## Documentación Puedes encontrar mas información sobre el Poryecto en: 📖
 
 [Leonidas Esteban](https://leonidasesteban.com/aprender/flexbox-componentes)
 
